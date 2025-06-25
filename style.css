@@ -6,11 +6,11 @@
 
 :root {
   --color01: #6254bf;
-  --color02: #99a8f2;
-  --color03: #734b02;
-  --color04: #f2b035;
+  --color02: #DCECF2;
+  --color03: #A79BF2;
+  --color04: #372673;
   --color05: #0d0d0d;
-  --color06: #dcecf2;
+  --color06: #8B88F2 ;
   --color07: #ffc52f;
   --color08: #b0eef5;
   --color09: #ffffff;
@@ -20,6 +20,7 @@
 body {
   background-color: var(--color02);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 #container {
@@ -47,17 +48,19 @@ ul li a {
   align-items: center;
   justify-content: center;
   padding: 16px 24px;
-  background: var(--color01);
+  background: var(--color03);
   border: 1px solid var(--color06);
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
+  font-size: 18px;
   color: var(--color09);
   transition: background 0.2s;
 }
 
 ul li a:hover {
   background: var(--color10);
+  border: 1px solid var(--color04);
 }
 
 #social-links {
