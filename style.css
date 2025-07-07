@@ -23,7 +23,7 @@ body {
 }
 
 #container {
-  max-width: 500px;
+  max-width: 360px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -51,7 +51,7 @@ ul li a {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   color: var(--color09);
   transition: background 0.2s;
 }
